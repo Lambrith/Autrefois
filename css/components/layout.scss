@@ -1,0 +1,24 @@
+/* layout */
+
+html {
+  font-size: 100%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-40);
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding:  var(--size-40);
+  background-image: url(img/Autrefois_ceriseraie-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right center;
+  background-repeat: no-repeat;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-style: var(--font-style-normal);
+  color: var(--primary);
+}

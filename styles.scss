@@ -1,0 +1,14 @@
+/* import stylesheets */
+
+/* import reset */
+@use 'css/normalize';
+
+/* import variables, utilities, mixins */
+@use 'css/variables';
+@use 'css/mixins';
+
+/* import components */
+@use 'css/components/layout';
+
+/* import pages */
+@use 'css/pages/index';

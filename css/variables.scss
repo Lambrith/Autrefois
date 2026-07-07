@@ -1,0 +1,61 @@
+/* variables */
+
+:root {
+
+  /* colors */
+
+    --primary-dark:  #D0BFA1;
+    --primary:  #F9F3E7;
+    --secondary-dark:  #06202A;
+    --secondary:  #435254;
+    --secondary-gradient:  linear-gradient( to left, var(--secondary-dark), var(--secondary) );
+    --neutral-white:  #ffffff;
+    --neutral-black:  #000000;
+
+    /* sizes */
+
+    --size-2:  0.125rem;
+    --size-4:  0.25rem;
+    --size-8:  0.5rem;
+    --size-12:  0.75rem;
+    --size-14:  0.875rem;
+    --size-16:  1rem;
+    --size-20:  1.25rem;
+    --size-24:  1.5rem;
+    --size-32:  2rem;
+    --size-40:  2.5rem;
+    --size-64:  4rem;
+
+
+    /* font */
+
+    --font-family: "Baskervville", serif;
+    --font-style-normal:  normal;
+    --font-style-italic:  italic;
+    --font-weight-regular:  400;
+    --font-weight-semibold:  600;
+    --font-weight-bold:  700;
+
+    /* radius */
+
+    --radius-circle:  50%;
+
+    /* box-shadows */
+
+
+
+/* transitions */
+
+    --transition-fast: 0.15s ease-in-out;
+    --transition-middle: 0.3s ease-in-out;
+    --transition-slow: 0.5s ease-in-out;
+}
+
+$breakpoints: (
+  "phone-down": 500px,
+  "tablet-up": 768px,
+  "tablet-down": 900px,
+  "desktop-up": 1024px,
+  "desktop-down": 1280px,
+  "widescreen-up": 1440px
+);
